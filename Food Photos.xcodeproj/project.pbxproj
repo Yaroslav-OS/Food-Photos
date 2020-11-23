@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C40B8CB82566BCC3005ED1EE /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40B8CB72566BCC3005ED1EE /* ImageView.swift */; };
+		C40C3646256AB58D0051D738 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40C3645256AB58D0051D738 /* ImageManager.swift */; };
 		C42F565625627C2700256963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42F565525627C2700256963 /* AppDelegate.swift */; };
 		C42F565825627C2700256963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42F565725627C2700256963 /* SceneDelegate.swift */; };
-		C42F565A25627C2700256963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42F565925627C2700256963 /* ViewController.swift */; };
 		C42F565D25627C2700256963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42F565B25627C2700256963 /* Main.storyboard */; };
 		C42F565F25627C2A00256963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42F565E25627C2A00256963 /* Assets.xcassets */; };
 		C42F566225627C2A00256963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42F566025627C2A00256963 /* LaunchScreen.storyboard */; };
+		C42F567025627D4200256963 /* PhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42F566F25627D4200256963 /* PhotoCollectionViewController.swift */; };
+		C44F695525652BBB00025AB1 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44F695425652BBB00025AB1 /* PhotoViewController.swift */; };
+		C4CA95492564451F0091BDB7 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA95482564451F0091BDB7 /* PhotoCell.swift */; };
+		C4CA954C256448920091BDB7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA954B256448920091BDB7 /* NetworkManager.swift */; };
+		C4CA954F25644C070091BDB7 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CA954E25644C070091BDB7 /* FoodModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C42F565225627C2700256963 /* UnSplash Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UnSplash Photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C40B8CB72566BCC3005ED1EE /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		C40C3645256AB58D0051D738 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		C42F565225627C2700256963 /* Food Photos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Photos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C42F565525627C2700256963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C42F565725627C2700256963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C42F565925627C2700256963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C42F565C25627C2700256963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C42F565E25627C2A00256963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C42F566125627C2A00256963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C42F566325627C2A00256963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42F566F25627D4200256963 /* PhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewController.swift; sourceTree = "<group>"; };
+		C44F695425652BBB00025AB1 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		C4CA95482564451F0091BDB7 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		C4CA954B256448920091BDB7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C4CA954E25644C070091BDB7 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +52,7 @@
 		C42F564925627C2600256963 = {
 			isa = PBXGroup;
 			children = (
-				C42F565425627C2700256963 /* UnSplash Photos */,
+				C42F565425627C2700256963 /* Food Photos */,
 				C42F565325627C2700256963 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +60,69 @@
 		C42F565325627C2700256963 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C42F565225627C2700256963 /* UnSplash Photos.app */,
+				C42F565225627C2700256963 /* Food Photos.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C42F565425627C2700256963 /* UnSplash Photos */ = {
+		C42F565425627C2700256963 /* Food Photos */ = {
+			isa = PBXGroup;
+			children = (
+				C4984C22256BE0D6006E8C26 /* Storyboards */,
+				C4984C20256BE02B006E8C26 /* Image + NetworkManager */,
+				C4984C1F256BE006006E8C26 /* ViewControllers */,
+				C4CA95482564451F0091BDB7 /* PhotoCell.swift */,
+				C40B8CB72566BCC3005ED1EE /* ImageView.swift */,
+				C4CA954E25644C070091BDB7 /* FoodModel.swift */,
+				C4984C23256BE0F1006E8C26 /* Supporting Files */,
+			);
+			path = "Food Photos";
+			sourceTree = "<group>";
+		};
+		C4984C1F256BE006006E8C26 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C42F566F25627D4200256963 /* PhotoCollectionViewController.swift */,
+				C44F695425652BBB00025AB1 /* PhotoViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C4984C20256BE02B006E8C26 /* Image + NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				C4CA954B256448920091BDB7 /* NetworkManager.swift */,
+				C40C3645256AB58D0051D738 /* ImageManager.swift */,
+			);
+			path = "Image + NetworkManager";
+			sourceTree = "<group>";
+		};
+		C4984C22256BE0D6006E8C26 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C42F565B25627C2700256963 /* Main.storyboard */,
+				C42F566025627C2A00256963 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C4984C23256BE0F1006E8C26 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				C42F565525627C2700256963 /* AppDelegate.swift */,
 				C42F565725627C2700256963 /* SceneDelegate.swift */,
-				C42F565925627C2700256963 /* ViewController.swift */,
-				C42F565B25627C2700256963 /* Main.storyboard */,
 				C42F565E25627C2A00256963 /* Assets.xcassets */,
-				C42F566025627C2A00256963 /* LaunchScreen.storyboard */,
 				C42F566325627C2A00256963 /* Info.plist */,
 			);
-			path = "UnSplash Photos";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C42F565125627C2700256963 /* UnSplash Photos */ = {
+		C42F565125627C2700256963 /* Food Photos */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C42F566625627C2A00256963 /* Build configuration list for PBXNativeTarget "UnSplash Photos" */;
+			buildConfigurationList = C42F566625627C2A00256963 /* Build configuration list for PBXNativeTarget "Food Photos" */;
 			buildPhases = (
 				C42F564E25627C2700256963 /* Sources */,
 				C42F564F25627C2700256963 /* Frameworks */,
@@ -82,9 +132,9 @@
 			);
 			dependencies = (
 			);
-			name = "UnSplash Photos";
+			name = "Food Photos";
 			productName = "UnSplash Photos";
-			productReference = C42F565225627C2700256963 /* UnSplash Photos.app */;
+			productReference = C42F565225627C2700256963 /* Food Photos.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +151,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C42F564D25627C2600256963 /* Build configuration list for PBXProject "UnSplash Photos" */;
+			buildConfigurationList = C42F564D25627C2600256963 /* Build configuration list for PBXProject "Food Photos" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +164,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C42F565125627C2700256963 /* UnSplash Photos */,
+				C42F565125627C2700256963 /* Food Photos */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C42F565A25627C2700256963 /* ViewController.swift in Sources */,
+				C40B8CB82566BCC3005ED1EE /* ImageView.swift in Sources */,
+				C4CA95492564451F0091BDB7 /* PhotoCell.swift in Sources */,
 				C42F565625627C2700256963 /* AppDelegate.swift in Sources */,
+				C40C3646256AB58D0051D738 /* ImageManager.swift in Sources */,
+				C4CA954C256448920091BDB7 /* NetworkManager.swift in Sources */,
+				C4CA954F25644C070091BDB7 /* FoodModel.swift in Sources */,
+				C44F695525652BBB00025AB1 /* PhotoViewController.swift in Sources */,
+				C42F567025627D4200256963 /* PhotoCollectionViewController.swift in Sources */,
 				C42F565825627C2700256963 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,10 +340,12 @@
 		C42F566725627C2A00256963 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "UnSplash Photos/Info.plist";
+				DEVELOPMENT_TEAM = UQ6NTNVH93;
+				INFOPLIST_FILE = "Food Photos/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -295,17 +353,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.UnSplash-Photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C42F566825627C2A00256963 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "UnSplash Photos/Info.plist";
+				DEVELOPMENT_TEAM = UQ6NTNVH93;
+				INFOPLIST_FILE = "Food Photos/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,14 +373,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.UnSplash-Photos";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C42F564D25627C2600256963 /* Build configuration list for PBXProject "UnSplash Photos" */ = {
+		C42F564D25627C2600256963 /* Build configuration list for PBXProject "Food Photos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C42F566425627C2A00256963 /* Debug */,
@@ -329,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C42F566625627C2A00256963 /* Build configuration list for PBXNativeTarget "UnSplash Photos" */ = {
+		C42F566625627C2A00256963 /* Build configuration list for PBXNativeTarget "Food Photos" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C42F566725627C2A00256963 /* Debug */,
